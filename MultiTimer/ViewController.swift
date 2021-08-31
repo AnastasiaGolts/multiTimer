@@ -35,7 +35,7 @@ final class ViewController: UIViewController {
     }
     
     //MARK: - Methods
-    func createHeader(_ header: UILabel) {
+    private func createHeader(_ header: UILabel) {
         header.text = "Мульти таймер"
         header.frame = CGRect(x: 0.0, y: 0.0, width: view.bounds.width, height: 100.0)
         header.backgroundColor = .quaternaryLabel
@@ -46,7 +46,7 @@ final class ViewController: UIViewController {
         view.addSubview(header)
     }
     
-    func createAddTimerLabel(_ label: UILabel) {
+    private func createAddTimerLabel(_ label: UILabel) {
         label.text = "   Добавление таймеров"
         label.frame = CGRect(x: 0.0, y: headerLabel.frame.height + 10.0, width: view.bounds.width, height: 40.0)
         label.backgroundColor = .quaternarySystemFill
@@ -56,7 +56,7 @@ final class ViewController: UIViewController {
         view.addSubview(label)
     }
     
-    func createNameTextField(_ textField: UITextField) {
+    private func createNameTextField(_ textField: UITextField) {
         textField.frame = CGRect(x: 15.0, y: timerLabel.frame.maxY + 20.0, width: view.bounds.width / 1.5, height: 34.0)
         textField.borderStyle = .roundedRect
         textField.placeholder = "Название таймера"
@@ -64,7 +64,7 @@ final class ViewController: UIViewController {
         view.addSubview(textField)
     }
     
-    func createTimeTextField(_ textField: UITextField) {
+    private func createTimeTextField(_ textField: UITextField) {
         textField.frame = CGRect(x: 15.0, y: nameTextField.frame.maxY + 10.0, width: view.bounds.width / 1.5, height: 34.0)
         textField.borderStyle = .roundedRect
         textField.keyboardType = .numberPad
@@ -73,7 +73,7 @@ final class ViewController: UIViewController {
         view.addSubview(textField)
     }
     
-    func createAddButton(_ button: UIButton) {
+    private func createAddButton(_ button: UIButton) {
         button.frame = CGRect(x: 10.0, y: timeTextField.frame.maxY + 20.0, width: view.bounds.width - 20.0, height: 60.0)
         button.setTitle("Добавить", for: .normal)
         button.tintColor = .systemBlue
@@ -115,7 +115,7 @@ final class ViewController: UIViewController {
         }
     }
     
-    func createTableView() {
+    private func createTableView() {
         timerTableView = UITableView(frame: CGRect(x: 0.0, y: addButton.frame.maxY + 20, width: view.bounds.width, height: view.bounds.maxY), style: .plain)
         timerTableView.register(TimerCell.self, forCellReuseIdentifier: identifier)
         timerTableView.delegate = self
@@ -124,7 +124,7 @@ final class ViewController: UIViewController {
         view.addSubview(timerTableView)
     }
     
-    func totalSec(sec: Int?) -> Int? {
+    private func totalSec(sec: Int?) -> Int? {
         let hour = calendar.component(.hour, from: currentTime)
         let minute = calendar.component(.minute, from: currentTime)
         let second = calendar.component(.second, from: currentTime)
@@ -134,7 +134,7 @@ final class ViewController: UIViewController {
         return sum
     }
     
-    func insertingNewEl(newEl: TimerCountDown) -> Int {
+    private func insertingNewEl(newEl: TimerCountDown) -> Int {
         
         var finIndex = Int()
         

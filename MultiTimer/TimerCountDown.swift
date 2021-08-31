@@ -1,11 +1,11 @@
 import UIKit
 
 struct TimerCountDown {
-    var name: String?
-    var time: Int?
-    var currentTime: Int?
+    public var name: String?
+    public var time: Int?
+    public var currentTime: Int?
     
-    func countdown(_ label: UILabel, cell: TimerCell) {
+    public func countdown(_ label: UILabel, cell: TimerCell) {
         guard var time = time else {return}
         Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
             if time == 0 {

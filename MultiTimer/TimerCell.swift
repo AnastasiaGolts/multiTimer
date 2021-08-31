@@ -1,10 +1,10 @@
 import UIKit
 
-class TimerCell: UITableViewCell {
-    var nameLabel = UILabel()
-    var timerLabel = UILabel()
+final class TimerCell: UITableViewCell {
+    public var nameLabel = UILabel()
+    public var timerLabel = UILabel()
     
-    var callback: ((UITableViewCell)->())?
+    public var callback: ((UITableViewCell)->())?
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
     super.init(style: style, reuseIdentifier: reuseIdentifier)
