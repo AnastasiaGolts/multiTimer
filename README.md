@@ -8,7 +8,8 @@
 3. После завершения времени таймер удалется из таблицы.
 
 ## Результат
-![Screenshot](Screens/BasicScreenShot.png =230x)
-![Screenshot](Screens/DeleteScreenShot.png =230x)
-![Screenshot](Screens/AlertScreenShot.png =230x)
+![<img src="Screens/BasicScreenShot.png" width="230"/>](Screens/BasicScreenShot.png)
+![<img src="Screens/DeleteScreenShot.png" width="230"/>](Screens/DeleteScreenShot.png)
+![<img src="Screens/AlertScreenShot.png" width="230"/>](Screens/AlertScreenShot.png)
+
 
