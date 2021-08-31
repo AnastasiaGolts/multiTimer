@@ -9,7 +9,7 @@
 
 ## Результат
 <p float="left">
-  <img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/BasicScreenShot.png" width="230"/>
-  <img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/DeleteScreenShot.png" width="230"/>
-  <img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/AlertScreenShot.png" width="230"/>
+  <!img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/BasicScreenShot.png" width="230"/>
+  <!img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/DeleteScreenShot.png" width="230"/>
+  <!img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/AlertScreenShot.png" width="230"/>
 </p>
