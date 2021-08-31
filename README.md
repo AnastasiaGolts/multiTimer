@@ -8,8 +8,7 @@
 3. После завершения времени таймер удалется из таблицы.
 
 ## Результат
-<p float="left">
-  <!img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/BasicScreenShot.png" width="230"/>
-  <!img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/DeleteScreenShot.png" width="230"/>
-  <!img src="https://github.com/AnastasiaGolts/multiTimer/tree/master/Screens/AlertScreenShot.png" width="230"/>
-</p>
+![Screenshot](Screens/BasicScreenShot.png =230x)
+![Screenshot](Screens/DeleteScreenShot.png =230x)
+![Screenshot](Screens/AlertScreenShot.png =230x)
+
